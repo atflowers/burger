@@ -1,0 +1,76 @@
+body {
+  background: skyblue;
+}
+
+.col-md-6 {
+  color: black;
+}
+
+.burgerBorder, .burgerlessBorder{
+  border-style: solid; 
+  width: 200px; 
+  height: 175px;
+  margin-bottom: 5px; 
+  padding: 6px; 
+  background-color:rgba(0,0,0,0.75); 
+  color: wheat;
+  position: relative;
+  z-index: -2;
+}
+
+.burgerlessBorder{
+  height: 75px;
+}
+
+.burger, .burgerless {
+  background-color:saddlebrown; 
+  color:wheat;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 135px;
+  height: 20px;
+  /* width: 171px; */
+  font-size: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.burgerless {
+  bottom: 50px;
+}
+
+.devourBtn {
+margin-bottom: 15px;
+}
+
+#addBurgerBtn {
+  margin-top: 5px;
+}
+
+.burgerImg, .burgerlessImg {
+  height:100px;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.burgerlessImg {
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.burgerlessImg {
+  height: 25px;
+  /* width: 170px; */
+}
+
+#title-block {
+  display: block;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.titleburger {
+  height: 300px;
+}
